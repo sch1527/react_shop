@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.headimg img {
+  width: 100%;
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.productList>div {
+  border: 1px solid red;
+  width: calc(100% / 3 - 20px);
+  margin: 10px;
+  cursor: pointer;
+}
+.list img {
+  width: 100%;
+}
